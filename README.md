@@ -42,9 +42,14 @@ prompt-templates/
 ├── best-practices/                  # Guides for effective AI collaboration
 │   ├── working-with-agents.md       # End-to-end agent workflow guide
 │   ├── prompt-engineering.md        # CRTSE framework and advanced techniques
+│   ├── prompt-security.md           # Prompt injection attacks & defenses
 │   ├── skill-development.md         # Creating and maintaining agent skills
 │   ├── mcp-servers.md               # MCP ecosystem and server selection
 │   └── plugin-development.md        # Building and distributing plugins
+├── examples/                         # Concrete prompt examples
+│   ├── good-prompts.md              # 7 filled-in CRTSE examples for real scenarios
+│   └── bad-prompts.md               # 10 bad prompts with before/after fixes
+├── SCHEMA.md                         # Formal schema for prompts, skills, plugins, hooks
 └── README.md
 ```
 
